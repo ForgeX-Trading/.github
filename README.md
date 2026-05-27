@@ -10,7 +10,7 @@ Our core development philosophy is simple: **Learn, build, ship, repeat.** We pr
 
 ## 🏗️ Core Architecture
 
-ForgeX is built on a decoupled architecture to ensure the simulation engine remains fast and the UI remains highly responsive when parsing millions of rows of 1M historical OHLCV data.
+ForgeX is built on a decoupled architecture to ensure the simulation engine remains fast and the UI remains highly responsive when parsing millions of rows of 1M (one-minute) historical OHLCV data.
 
 * **Data Ingestion:** Automated Python scripts to extract, parse, and structure minute-by-minute MT5 historical data.
 * **Simulation Engine:** A lightweight, highly parallelized FastAPI backend serving historical chunks with sub-second latency.
@@ -52,4 +52,7 @@ The ForgeX ecosystem is divided into the following core private repositories:
 ## 👥 Team
 
 ForgeX is maintained by:
-* **Prajwal** * **Advay** *Focused on engineering systems with zero fluff.*
+* **Prajwal**
+* **Advay**
+
+*Focused on engineering systems with zero fluff.*
